@@ -23,7 +23,7 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ct-primary-color: #182026;
   --ct-primary-hover-color: #10161A;
   --ct-secondary-color: #5c778a;
-  --ct-tertiary-color: #F5F8FA;
+  --ct-tertiary-color: #4b4b4b;
   --ct-primary-text-color: #24292e;
   --ct-icon-color: #5c7080;
   --ct-warning-color: #e54d2e;
@@ -103,7 +103,7 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
 }
 
 .left-sidebar-inner .nav-content-item .header .cp__sidebar-left-layout a {
-  color: var(--atlas-header-text-color);
+  color: var(--atlas-header-text-color) !important;
 }
 
 .dark-theme,
@@ -371,7 +371,7 @@ html[data-theme=light] a.external-link {
 .white-theme a.page-ref:hover, .white-theme a.external-link:hover,
 html[data-theme=light] a.page-ref:hover,
 html[data-theme=light] a.external-link:hover {
-  border-bottom: 1px dashed #24292e;
+  border-bottom: 1px dashed rgb(36, 41, 46);
 }
 .white-theme a.external-link:before,
 html[data-theme=light] a.external-link:before {
