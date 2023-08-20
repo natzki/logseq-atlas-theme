@@ -40,7 +40,8 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ct-highlight-color-text: black;
   --ls-link-text-color: var(--ct-primary-text-color);
   --ls-primary-background-color: #FFFFFF;
-  --ls-secondary-background-color: var(--ct-primary-color);
+  /*--ls-secondary-background-color: var(--ct-primary-color);*/
+  --ls-secondary-background-color: var(--ct-secondary-color);
   --ls-tertiary-background-color: var(--ct-tertiary-color);
   --ls-quaternary-background-color: var(--ct-primary-hover-color);
   --ls-table-tr-even-background-color: var(--ct-tertiary-color);
@@ -343,7 +344,8 @@ html[data-theme=light] .color-level .content {
 }
 .white-theme .color-level .blocks-container,
 html[data-theme=light] .color-level .blocks-container {
-  background-color: var(--ct-tertiary-color);
+  /*background-color: var(--ct-tertiary-color);*/
+  background-color: #c5c5c5;
   padding: 10px;
 }
 .white-theme .color-level .blocks-container .pr-2,
@@ -393,6 +395,7 @@ html[data-theme=light] .ui__button {
 html[data-theme=light] #main-content-container .ui__button,
 html[data-theme=light] .ui__modal-panel .ui__button {
   background-color: var(--ct-primary-color);
+  /*background-color: #ffffff */
 }
 .white-theme .graph-filters,
 html[data-theme=light] .graph-filters {
